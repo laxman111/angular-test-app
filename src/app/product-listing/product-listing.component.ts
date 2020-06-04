@@ -9,14 +9,14 @@ export class ProductListingComponent implements OnInit {
   listItems: Array<any>;
   constructor() {
     this.listItems = [
-      { id: 'er4j5h345', name: 'Item1', title: 'Test1', subtitle: 'Subtitle1', desc: 'this is test desc', isForSell: true, price: '$20' },
-      { id: 'er4j5h345', name: 'Item2', title: 'Test2', subtitle: 'Subtitle2', desc: 'this is test desc', isForSell: false },
-      { id: 'er4j5h345', name: 'Item3', title: 'Test3', subtitle: 'Subtitle3', desc: 'this is test desc', isForSell: false },
-      { id: 'er4j5h345', name: 'Item4', title: 'Test4', subtitle: 'Subtitle4', desc: 'this is test desc', isForSell: false },
-      { id: 'er4j5h345', name: 'Item5', title: 'Test5', subtitle: 'Subtitle5', desc: 'this is test desc', isForSell: false },
-      { id: 'er4j5h345', name: 'Item6', title: 'Test6', subtitle: 'Subtitle6', desc: 'this is test desc', isForSell: false },
-      { id: 'er4j5h345', name: 'Item7', title: 'Test7', subtitle: 'Subtitle7', desc: 'this is test desc', isForSell: true, price: '$20' },
-      { id: 'er4j5h345', name: 'Item8', title: 'Test8', subtitle: 'Subtitle8', desc: 'this is test desc', isForSell: true, price: '$20' },
+      { id: 'er4j5h345', name: 'Item 1', title: 'Test 1', subtitle: 'Subtitle 1', desc: 'this is test description', isForSell: true, price: '$20' },
+      { id: 'er4j5h345', name: 'Item 2', title: 'Test 2', subtitle: 'Subtitle 2', desc: 'this is test description', isForSell: false },
+      { id: 'er4j5h345', name: 'Item 3', title: 'Test 3', subtitle: 'Subtitle 3', desc: 'this is test description', isForSell: false },
+      { id: 'er4j5h345', name: 'Item 4', title: 'Test 4', subtitle: 'Subtitle 4', desc: 'this is test description', isForSell: false },
+      { id: 'er4j5h345', name: 'Item 5', title: 'Test 5', subtitle: 'Subtitle 5', desc: 'this is test description', isForSell: false },
+      { id: 'er4j5h345', name: 'Item 6', title: 'Test 6', subtitle: 'Subtitle 6', desc: 'this is test description', isForSell: false },
+      { id: 'er4j5h345', name: 'Item 7', title: 'Test 7', subtitle: 'Subtitle 7', desc: 'this is test description', isForSell: true, price: '$20' },
+      { id: 'er4j5h345', name: 'Item 8', title: 'Test 8', subtitle: 'Subtitle 8', desc: 'this is test description', isForSell: true, price: '$20' },
     ];
    }
 

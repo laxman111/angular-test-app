@@ -1,4 +1,7 @@
 <div class="row">
-<app-item-panel *ngFor="let item of listItems" [item]="item" >
-</app-item-panel>
+    <div class="col-sm-6 mb-3 pl-0 pr-0" *ngFor="let item of listItems">
+        <app-item-panel  [item]="item" >
+            </app-item-panel>
+
+    </div>
 </div>
